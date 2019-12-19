@@ -1,0 +1,8 @@
+Fare funzionare junit.
+- Si può lanciare i test
+- Se metto assertEquals(1,2) vedo rosso
+- Se metto assertEquals(1,1) vedo verde
+
+Testare una somma.
+Testare una somma in una classe.
+
