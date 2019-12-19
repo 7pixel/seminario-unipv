@@ -1,5 +1,7 @@
 package simple;
 
+import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 public class DoubleTest {
@@ -9,6 +11,7 @@ public class DoubleTest {
 //    public void comparingDoubles1() {
 //        assertEquals(1.414, Math.sqrt(2));
 //    }
+//
 //
 //    @Test
 //    public void comparingDoubles2() {
