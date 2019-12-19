@@ -16,18 +16,8 @@ public class DoubleTest {
 //        double result = triangle.hypotenuse();
 //
 //        assertEquals(5, result);
+//        //assertEquals(5, result, 0.0001);
 //    }
 
-
-//    @Test
-//    public void pitagora2() {
-//        int base = 4;
-//        int height = 6;
-//        RightTriangle triangle = new RightTriangle(base, height);
-//
-//        double result = triangle.hypotenuse();
-//
-//        assertEquals(___, result);
-//    }
 
 }
