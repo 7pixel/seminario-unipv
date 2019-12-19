@@ -4,5 +4,13 @@ Fare funzionare junit.
 - Se metto assertEquals(1,1) vedo verde
 
 Testare una somma.
+
+    @Test
+    public void somma() {
+        int result = 1+2;
+        assertEquals(3,result);
+    }
+
+
 Testare una somma in una classe.
 
