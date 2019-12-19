@@ -3,14 +3,17 @@ Fare funzionare junit.
 - Se metto assertEquals(1,2) vedo rosso
 - Se metto assertEquals(1,1) vedo verde
 
+Esercizio 1 (package simple, classe SimpleTest.java)
 Testare una somma.
+Test di Calculator#add()
+Test di Calculator#multiply()
+Test di Repeater#repeat()
+Pulizia dei test che non servono più (example e somma)
+Rinominare la class di test in CalculatorTest
+Spostare il test di Repeater in un nuova classe RepeaterTest
 
-    @Test
-    public void somma() {
-        int result = 1+2;
-        assertEquals(3,result);
-    }
+Esercizio 2 (package simple, classe DoubleTest.java)
+- comparingDoubles1 -> scommentare e vedere non si possono confrontare i double
 
-
-Testare una somma in una classe.
+Esercizio 3 (package bookshop)
 
