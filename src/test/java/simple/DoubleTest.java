@@ -7,17 +7,6 @@ import static org.junit.Assert.assertEquals;
 public class DoubleTest {
     public static double ___ = -1;
 
-//    @Test
-//    public void comparingDoubles1() {
-//        assertEquals(1.414, Math.sqrt(2));
-//    }
-//
-//
-//    @Test
-//    public void comparingDoubles2() {
-//        assertEquals(1.414, Math.sqrt(2), 0.01);
-//    }
-
 //    public void pitagora() {
 //        int base = 3;
 //        int height = 4;
