@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/kata-delivery-service.iml" filepath="$PROJECT_DIR$/kata-delivery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminario-unipv.iml" filepath="$PROJECT_DIR$/seminario-unipv.iml" />
     </modules>
   </component>
 </project>

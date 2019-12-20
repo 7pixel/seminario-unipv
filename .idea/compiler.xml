@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kata-delivery-service" />
+        <module name="seminario-unipv" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kata-delivery-service" target="1.8" />
+      <module name="seminario-unipv" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
