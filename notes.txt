@@ -13,3 +13,39 @@ Come specificare che stiamo usando una certa versione di Java in Maven:
             </plugin>
         </plugins>
     </build>
+
+Come specificare che stiamo usando una certa versione di Java in Maven:
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+Come scaricare i sorgenti in maven
+
+
+    mvn dependency:sources
+
+Per scaricare javadoc:
+
+    mvn dependency:resolve -Dclassifier=javadoc
+
+
+Per includere la libreria hamcrest-library:
+
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-library</artifactId>
+            <version>2.2</version>
+        </dependency>
+
+-EOF
