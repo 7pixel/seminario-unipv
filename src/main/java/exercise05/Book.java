@@ -1,4 +1,4 @@
-package bookshop;
+package exercise05;
 
 public class Book {
 

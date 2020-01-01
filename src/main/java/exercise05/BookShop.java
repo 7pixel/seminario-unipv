@@ -1,17 +1,16 @@
-package bookshop;
+package exercise05;
 
 public class BookShop {
-    private final double DISCOUNT_EVERY_THREE_BOOKS = 20.0 / 100;
-    private final Book[] books;
+    private final double DISCOUNT_EVERY_THREE_BOOKS = 20 / 100;
+    private final Book[] availableBooks = new Book[]{
+            new Book("Harry Potter and the Half-Blood Prince", 10.00),
+            new Book("Harry Potter and the Chamber of Secrets", 10.00),
+            new Book("Harry Potter And The Sorcerer's Stone", 10.00),
+            new Book("Harry Potter And The Goblet Of Fire", 10.00),
+            new Book("Harry Potter and the Order of the Phoenix", 10.00)
+    };
 
     public BookShop() {
-        this.books = new Book[]{
-                new Book("Harry Potter and the Half-Blood Prince", 10.00),
-                new Book("Harry Potter and the Chamber of Secrets", 10.00),
-                new Book("Harry Potter And The Sorcerer's Stone", 10.00),
-                new Book("Harry Potter And The Goblet Of Fire", 10.00),
-                new Book("Harry Potter and the Order of the Phoenix", 10.00)
-        };
         this.orderTotal = 0.0;
         this.totalBooks = 0;
         this.itemsList = "";
@@ -24,9 +23,9 @@ public class BookShop {
     public void buy(String title) {
         double price = 0;
         itemsList += "" + title;
-        for (int i = 0; i < books.length; i++) {
-            if (title.equals(this.books[i].getTitle())) {
-                price = books[i].getFullPrice();
+        for (int i = 0; i < availableBooks.length; i++) {
+            if (title.equals(this.availableBooks[i].getTitle())) {
+                price = availableBooks[i].getFullPrice();
             }
         }
         String priceStr = String.format("%2.2f", price);
