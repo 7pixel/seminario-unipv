@@ -1,12 +1,12 @@
-package exercise05;
+package exercise99;
 
 public class BookShop {
     private final double DISCOUNT_EVERY_THREE_BOOKS = 20 / 100;
     private final Book[] availableBooks = new Book[]{
             new Book("Harry Potter and the Half-Blood Prince", 10.00),
             new Book("Harry Potter and the Chamber of Secrets", 10.00),
-            new Book("Harry Potter And The Sorcerer's Stone", 10.00),
-            new Book("Harry Potter And The Goblet Of Fire", 10.00),
+            new Book("Harry Potter and the Sorcerer's Stone", 10.00),
+            new Book("Harry Potter and the Goblet of Fire", 10.00),
             new Book("Harry Potter and the Order of the Phoenix", 10.00)
     };
 

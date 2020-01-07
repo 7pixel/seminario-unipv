@@ -21,3 +21,9 @@ Note:
    del lato più lungo del pacco.
  * I box nei locker sono cubici e possono contenere solo pacchi con lato più
    lungo minore o uguale al lato del box.
+
+Come si sviluppa usando i test:
+
+ - un requisito alla volta
+ - in questo caso partiamo dal caso più facile, non è sempre il modo migliore
+ - prima vediamo il test rosso e poi lo facciamo passare

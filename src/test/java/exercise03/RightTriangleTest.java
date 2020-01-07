@@ -8,6 +8,7 @@ public class RightTriangleTest {
      *
      * Attenzione: stavolta devi creare l'oggetto
      * Attenzione: assertEquals potrebbe non essere giusto
+     * Nota: RightTriangle vuol dire "Triangolo Rettangolo" in inglese,
      */
 //    @Test
 //    public void pitagora() {
@@ -23,7 +24,5 @@ public class RightTriangleTest {
 //        assertEquals(5, result);
 //    }
 
-
-    private final int ___ = -1;
 }
 
