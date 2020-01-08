@@ -8,9 +8,13 @@ import java.time.temporal.ChronoUnit;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Obiettivo: l'ultimo test non funziona a causa di un baco, scommentarlo,
- * vedere che non passa, e aggiustare il codice di produzione in modo che il
- * test passi.
+ * Obiettivo: l'ultimo test non funziona perché lo sviluppatore si è dimenticato
+ * di implementare l'ultima feature.
+ * 
+ * Dopo che il tempo è scaduto il timer dovrebbe continuare a segnare 00:00.
+ * 
+ * Obiettivo: Scommentare l'ultimo test e vedere che non passa e aggiustare 
+ * il codice di produzione in modo che lo faccia.
  *
  * Attenzione: bisogna modificare il codice di produzione, non il test.
  */
