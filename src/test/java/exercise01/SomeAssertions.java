@@ -20,13 +20,16 @@ public class SomeAssertions {
 
 
     /**
-     * Obiettivo 1: vedere la prima barra rossa, hai raggiunto l'obiettivo solo
-     * dopo che hai lanciato tutti i test e vedi che solo questo non passsa
-     * devi trovare nel messaggio di errore il punto in cui dice che "1" è
-     * diverso da "2"
+     * Obiettivo 1: vedere la prima barra rossa. Hai raggiunto l'obiettivo solo
+     * dopo che hai lanciato tutti i test e vedi che solo questo non passa.
+     * Devi trovare nel messaggio di errore il punto in cui dice che "1" è
+     * diverso da "2".
      *
      * Obiettivo 2: fai passare questo test, cambia uno dei numeri e fallo
      * passare.
+     *
+     * Nota: su alcuni IDE per scommentare un blocco di codice si usa
+     * CTRL+SHIFT+7 ( o CTRL+/ )
      */
 //    @Test
 //    public void redTest() {
