@@ -8,7 +8,7 @@ import java.time.temporal.ChronoUnit;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Obiettivo: l'ultimo test non funziona perché lo sviluppatore si è dimenticato
+ * Premessa: l'ultimo test non funziona perché lo sviluppatore si è dimenticato
  * di implementare l'ultima feature.
  * 
  * Dopo che il tempo è scaduto il timer dovrebbe continuare a segnare 00:00.
