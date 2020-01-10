@@ -33,10 +33,10 @@ public class BookShopTest {
         BookShop shop = new BookShop();
 
         shop.buy("Harry Potter and the Half-Blood Prince");
-        shop.buy("Harry Potter And The Sorcerer's Stone");
+        shop.buy("Harry Potter and the Sorcerer's Stone");
 
         assertEquals("Harry Potter and the Half-Blood Prince: 10.00 EUR\n" +
-                        "Harry Potter And The Sorcerer's Stone: 10.00 EUR\n" +
+                        "Harry Potter and the Sorcerer's Stone: 10.00 EUR\n" +
                         "\n" +
                         "TOTAL: 20.0 EUR",
                 shop.getReceipt());
@@ -48,11 +48,11 @@ public class BookShopTest {
         BookShop shop = new BookShop();
 
         shop.buy("Harry Potter and the Half-Blood Prince");
-        shop.buy("Harry Potter And The Sorcerer's Stone");
+        shop.buy("Harry Potter and the Sorcerer's Stone");
         shop.buy("Harry Potter and the Chamber of Secrets");
 
         assertEquals("Harry Potter and the Half-Blood Prince: 10.00 EUR\n" +
-                        "Harry Potter And The Sorcerer's Stone: 10.00 EUR\n" +
+                        "Harry Potter and the Sorcerer's Stone: 10.00 EUR\n" +
                         "Harry Potter and the Chamber of Secrets: 10.00 EUR\n" +
                         "\n" +
                         "TOTAL: 30.0 EUR",

@@ -1,5 +1,7 @@
 package exercise99;
 
+import java.util.Locale;
+
 public class BookShop {
     private final double DISCOUNT_EVERY_THREE_BOOKS = 20 / 100;
     private final Book[] availableBooks = new Book[]{
@@ -28,7 +30,7 @@ public class BookShop {
                 price = availableBooks[i].getFullPrice();
             }
         }
-        String priceStr = String.format("%2.2f", price);
+        String priceStr = String.format(Locale.US, "%2.2f", price);
         itemsList += String.format(": %s EUR\n", priceStr);
         orderTotal += price;
         totalBooks++;
@@ -50,7 +52,7 @@ public class BookShop {
     }
 
     public String totalLine() {
-        return String.format("TOTAL: %s EUR", getTotal());
+        return String.format(Locale.US, "TOTAL: %s EUR", getTotal());
     }
 
 }
