@@ -3,6 +3,7 @@ package exercise01;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class SomeAssertions {
 
@@ -53,14 +54,16 @@ public class SomeAssertions {
      * deprecato.
      * Obiettivo 2: correggere il test usando la versione di assertEquals
      * con la tolleranza
-     * Obiettivo 3: spiegare perché il metodo è stato deprecato
+     * Obiettivo 3: spiegare perché il metodo è stato deprecato,
+     * anche alla luce del risultato della chiamata ad assertTrue
      */
-//     @Test
+//    @Test
 //    public void comparingFloatOrDoubles() {
 //        double result = Math.sqrt(3*3 + 4*4);
 //
 //        assertEquals(5, result);
 //        //assertEquals(5, result, 0.0001);
+//        //assertTrue(12 * Math.sqrt(0.01) == 1.2);
 //    }
 
     private final int ___ = -1;
