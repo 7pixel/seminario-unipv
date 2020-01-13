@@ -4,11 +4,15 @@ un cliente.
 Quando un cliente acquista un prodotto può scegliere che esso venga consegnato
 in uno dei punti di ritiro disponibili.
 
-Esistono dei punti di ritiro chiamati "hub" che possono accettare pacchi senza
-limiti di dimensione ne limiti di numero.
+Ci sono due tipi di punti di ritiro:
+ - gli hub
+ - i locker
 
-Esistono dei punti di ritiro chiamati "locker" che possono accettare un pacco
-solo se hanno a disposizione un box libero abbastanza grande da contenerlo.
+Gli "hub" che possono accettare pacchi senza limiti di dimensione e senza limiti
+di numero.
+
+I "locker" che possono accettare un pacco solo se hanno a disposizione un box
+libero abbastanza grande da contenerlo.
 
 Scrivere un servizio che, data la dimensione del pacco:
  * restituisca l'elenco dei punti di ritiro disponibili.
@@ -24,6 +28,11 @@ Note:
 
 Come si sviluppa usando i test:
 
- - un requisito alla volta
- - in questo caso partiamo dal caso più facile, non è sempre il modo migliore
- - prima vediamo il test rosso e poi lo facciamo passare
+ - si lavora in modo incrementale, un feature alla volta
+ - si segue questo ritmo
+    1. Quickly add a test.
+    2. Make it compile.
+    3. Watch it fail.
+    4. Make it run.
+    5. Make it right.
+
