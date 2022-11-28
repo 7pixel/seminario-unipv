@@ -1,4 +1,4 @@
-package exercise99;
+package exercise05;
 
 import java.util.Locale;
 

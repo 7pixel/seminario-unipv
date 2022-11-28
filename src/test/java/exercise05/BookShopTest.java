@@ -1,6 +1,8 @@
-package exercise99;
+package exercise05;
 
 import org.junit.Test;
+
+import exercise05.BookShop;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
