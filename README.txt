@@ -1,38 +1,23 @@
-Sviluppare un "DeliveryService" che gestisce la consegna di pacchi acquistati da
-un cliente.
+Indice degli esercizi
 
-Quando un cliente acquista un prodotto può scegliere che esso venga consegnato
-in uno dei punti di ritiro disponibili.
+Esercizio 01
+- Obiettivo: verificare che l'ambiente sia configurato correttamente per eseguire test
+- Obiettivo: scrivere i primi test
 
-Ci sono due tipi di punti di ritiro:
- - gli hub
- - i locker
+Esercizio 02
+- Obiettivo: scrivere metodi di produzione facendogli passare i test
 
-Gli "hub" che possono accettare pacchi senza limiti di dimensione e senza limiti
-di numero.
+Esercizio 03
+- Obiettivo: scrivere una classe di produzione facendole passare i test
 
-I "locker" che possono accettare un pacco solo se hanno a disposizione un box
-libero abbastanza grande da contenerlo.
+Esercizio 04
+- Obiettivo: scrivere test e codice di produzione partendo da una descrizione del problema
 
-Scrivere un servizio che, data la dimensione del pacco:
- * restituisca l'elenco dei punti di ritiro disponibili.
- * consenta di prenotare uno dei suddetti punti, occupandolo
+Esercizio 05
+- Obiettivo: sistemare un bug facendosi guidare dai test
 
-Note:
+Esercizio 06
+- Obiettivo: scrivere test attorno a un pezzo di codice legacy per caratterizzarne il comportamento
 
- * Ad ogni punto di ritiro è associato un nome in codice univoco
- * La dimensione del pacco è espressa un unico numero che rappresenta la misura
-   del lato più lungo del pacco.
- * I box nei locker sono cubici e possono contenere solo pacchi con lato più
-   lungo minore o uguale al lato del box.
-
-Come si sviluppa usando i test:
-
- - si lavora in modo incrementale, un feature alla volta
- - si segue questo ritmo
-    1. Quickly add a test.
-    2. Make it compile.
-    3. Watch it fail.
-    4. Make it run.
-    5. Make it right.
-
+Esercizio 99
+- Obiettivo: sistemare un bug facendosi guidare da test che iniettano dipendenze di test ("test double")
