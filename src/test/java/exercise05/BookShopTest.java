@@ -57,7 +57,7 @@ public class BookShopTest {
                         "Harry Potter and the Sorcerer's Stone: 10.00 EUR\n" +
                         "Harry Potter and the Chamber of Secrets: 10.00 EUR\n" +
                         "\n" +
-                        "TOTAL: 30.0 EUR",
+                        "TOTAL: 28.0 EUR",
                 shop.getReceipt());
 
     }
