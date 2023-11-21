@@ -14,7 +14,7 @@ Piuttosto semplice, no? Ma è qui che il discorso si fa interessante:
 	- Una volta superata la data di scadenza, la qualità si degrada due volte più velocemente.
 	- La qualità di un articolo non è mai negativa
 	- Il "Brie invecchiato (Aged Brie)" aumenta di fatto la sua qualità quanto più invecchia
-	- La qualità di un prodotto non è mai superiore al 50%.
+	- La qualità di un prodotto non è mai superiore a 50.
 	- Il "Sulfuras", essendo un oggetto leggendario, non deve mai essere venduto e non diminuisce di qualità.
 	- I "pass per il backstage", come il brie invecchiato, aumentano di qualità man mano che il loro valore di SellIn si avvicina;
 	- La qualità aumenta di 2 quando ci sono 10 giorni o meno e di 3 quando ci sono 5 giorni o meno, ma la qualità scende a 0 dopo il concerto.
