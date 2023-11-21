@@ -63,7 +63,7 @@ public class SomeAssertions {
 //
 //        assertEquals(5, result);
 //        //assertEquals(5, result, 0.0001);
-//        //assertTrue(12 * Math.sqrt(0.01) == 1.2);
+//        //assertTrue(12 * 0.1 == 1.2);
 //    }
 }
 
