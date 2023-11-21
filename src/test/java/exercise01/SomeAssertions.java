@@ -45,7 +45,7 @@ public class SomeAssertions {
 //    @Test
 //    public void somma() {
 //        int result = 1+2;
-//        assertEquals(___,result);
+//        assertEquals(-1,result);
 //    }
 
 
@@ -65,7 +65,5 @@ public class SomeAssertions {
 //        //assertEquals(5, result, 0.0001);
 //        //assertTrue(12 * Math.sqrt(0.01) == 1.2);
 //    }
-
-    private final int ___ = -1;
 }
 
