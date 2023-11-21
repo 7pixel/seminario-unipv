@@ -1,0 +1,7 @@
+Import: 15m
+1: 5m + 2m di spiega
+2: 10m + 2m di spiega
+3: 15m + 2m di spiega
+4: 20m + 2m di spiega
+5: 20m + 2m di spiega
+6: quel che resta
